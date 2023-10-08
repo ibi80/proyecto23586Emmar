@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto integrador | Emmar Marquez</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,500&family=Roboto:ital,wght@0,100;1,400&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <section class="encabezado">
+            <div class="Logo">
+                <img src="./assets/img/codoacodo.png" alt="logo" class="img">
+                <h2 class="h2">Conf Bs As</h2>   
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a class="colorBlanco"href="#Conferencia">La conferencia</a></li>
+                    <li><a class="colorGris"href="#Oradores">Los oradores</a></li>
+                    <li><a class="colorGris"href="#lugarFecha">El lugar y la fecha</a></li>
+                    <li><a class="colorGris"href="#FormularioOrador">Conviertete en orador<a></li>
+                    <li><a class="colorVerde"href="#Comprartickets">Comprar tickets</a></li>      
+                </ul>               
+            </nav>    
+        </section>  
+        <section> 
+            <div class="conferencia">
+                <h1>Conf Bs As</h1>
+                <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+                <button class="transparente">Quiero ser orador</button>
+                <button class="verde">Comprar tickets</button>  
+            </div>   
+        </section>
+    </header>
+    <main>             
+        <section class="oradores">
+                <h3>conoce a los</h3>
+                <h2>Oradores</h2>
+            <div class="contenedorCards">
+                <div class="card">
+                    <img src="./assets/img/steve.jpg" alt="Steve Jobs" width="300px" loading="lazy">
+                    <button class="amarillo">JavaScript</button>
+                    <button class="azul">React</button>
+                    <h3>Steve Jobs</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis asperiores, autem facilis molestias ad voluptate nostrum earum consequatur odit, numquam assumenda voluptatum maiores dolor corporis, iste suscipit animi. Iusto, ea!
+                    Ducimus ratione! </p>
+                </div>
+                    
+                <div class="card">
+                    <img src="./assets/img/bill.jpg" alt="Bill Gates" width="300px" loading="lazy">
+                    <button class="amarillo">JavaScript</button>
+                    <button class="azul">React</button> 
+                    <h3>Bill Gates</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis asperiores, autem facilis molestias ad voluptate nostrum earum consequatur odit, numquam assumenda voluptatum maiores dolor corporis, iste suscipit animi. Iusto, ea!
+                    Ducimus ratione!</p>
+                </div>
+
+                <div class="card">
+                    <img src="./assets/img/ada.jpeg" alt="Ada Loveline" width="300px" loading="lazy">
+                    <button class="gris">Negocios</button>
+                    <button class="rojo">Starsups</button>
+                    <h3>Ada Loveline</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis asperiores, autem facilis molestias ad voluptate nostrum earum consequatur odit, numquam assumenda voluptatum maiores dolor corporis, iste suscipit animi. Iusto, ea!
+                    Ducimus ratione!</p>
+                </div>
+            </div>   
+        </section>
+            <div class="lugarfecha">
+                <img src="./assets/img/honolulu.jpg" alt="Playa honolulu" loading="lazy">
+                <aside>
+                    <h2>Bs As - Octubre</h2>
+                    <p>Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600 km2 de superficie)</p>
+                    <button class="conoce">Conocé más</button>  
+                </aside>                
+            </div>
+        <section class="conviertete">
+            <h5>Conviertete en un</h5><br>
+            <h6>Orador</h6>
+            <p>Anotaté como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
+        </section>
+        <form class="formulario">
+            <input class="controls" type="text" id="name" name="nombre" placeholder="Nombre" required>
+            <input class="controls" type="text" id="apellido"name="apellido"placeholder="Apellido" required>
+            <textarea class="comentario" name="comentario" id="comentario" cols="60" rows="5" placeholder="Sobre qué quieres hablar"></textarea>    
+            <div class="parraformu">
+                <p>Recuerda incluir un titulo para tu charla</p>
+            </div>
+            <input class="enviarformulario" type="submit" value="Enviar">             
+        </form> 
+    </main>     
+    <footer> 
+        <div class="links">
+            <ul>
+               <li><a href="">Preguntas frecuentes</a></li>
+               <li><a href="">Contáctanos</a></li>
+               <li><a href="">Prensa</a></li>
+               <li><a href="">Conferencia</a></li>
+               <li><a href="">Términos y condiciones</a></li>
+               <li><a href="">Privacidad</a></li>
+               <li><a href="">Estudiantes</a></li>
+
+            </ul>  
+        </div>        
+    </footer>
+</body>
+
+</html>
